@@ -44,3 +44,33 @@ right-leg
         right-leg__finger
         right-leg__finger
 ```        
+
+## Задание 2
+
+### header
+![header](/img/header.jpg)
+
+```
+header.header>img+nav.header__navigation>ul.header__nav-list>li.header__link+li.header__link+li.header__link+li.header__link+li.header__link+li.header__link--colored
+```
+
+### footer
+![footer](/img/footer1.jpg)
+
+```
+footer.footer>img+(ul.footer__list>li.footer__list-item--heading+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item)+(ul.footer__list>li.footer__list-item--heading+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item)+(ul.footer__list>li.footer__list-item--heading+li.footer__list-item+li.footer__list-item)+.footer__copyrite-block>p.footer__copyrite-text+a.footer__termofuse-link)
+```
+
+### form
+![form](/img/form.jpg)
+
+```
+
+```
+
+### insights
+![insights](/img/insights.jpg)
+
+```
+
+```
