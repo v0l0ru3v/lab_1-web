@@ -58,13 +58,14 @@ header.header>img+nav.header__navigation>ul.header__nav-list>li.header__link+li.
 ![footer](/img/footer1.jpg)
 
 ```
-footer.footer>img+(ul.footer__list>li.footer__list-item--heading+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item)+(ul.footer__list>li.footer__list-item--heading+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item)+(ul.footer__list>li.footer__list-item--heading+li.footer__list-item+li.footer__list-item)+.footer__copyrite-block>p.footer__copyrite-text+a.footer__termofuse-link)
+footer.footer>img+(ul.footer__list>li.footer__list-item--heading+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item)+(ul.footer__list>li.footer__list-item--heading+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item)+(ul.footer__list>li.footer__list-item--heading+li.footer__list-item+li.footer__list-item)+.footer__copyrite-block>p.footer__copyrite-text+a.footer__link)
 ```
 
 ### form
 ![form](/img/form.jpg)
 
 ```
+section.form>p.form__discription+h2.form__heading+form>(label.form__label>input.form__input)+button.form__button
 
 ```
 
@@ -72,5 +73,6 @@ footer.footer>img+(ul.footer__list>li.footer__list-item--heading+li.footer__list
 ![insights](/img/insights.jpg)
 
 ```
+section.insights>h2.insights__heading+ul.insights__container>(img+h3.insight__name+p.insights__discription+p.insights__date)+(img+h3.insight__name+p.insights__discription+p.insights__date)+(img+h3.insight__name+p.insights__discription+p.insights__date)
 
 ```
