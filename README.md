@@ -5,12 +5,12 @@
 ```
 head
     head__hair
-    head__eye--left
-    head__eye--right
+    head__eye_left
+    head__eye_right
     head__nose_crooked
-    head__mouth--small
+    head__mouth_small
 torso
-    torso__hair--black
+    torso__hair_black
     torso__breast
     torso__navel
 left-arm
@@ -23,7 +23,7 @@ left-arm
 right-arm
     left-arm__finger
         right-arm__finger
-        right-arm__finger--ring
+        right-arm__finger_ring
         right-arm__finger
         right-arm__finger
         right-arm__finger
@@ -51,14 +51,14 @@ right-leg
 ![header](/img/header.jpg)
 
 ```
-header.header>img+nav.header__navigation>ul.header__nav-list>li.header__link+li.header__link+li.header__link+li.header__link+li.header__link+li.header__link--colored
+header.header>img+nav.header__navigation>ul.header__nav-list>li.header__link+li.header__link+li.header__link+li.header__link+li.header__link+li.header__link_colored
 ```
 
 ### footer
 ![footer](/img/footer1.jpg)
 
 ```
-footer.footer>img+(ul.footer__list>li.footer__list-item--heading+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item)+(ul.footer__list>li.footer__list-item--heading+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item)+(ul.footer__list>li.footer__list-item--heading+li.footer__list-item+li.footer__list-item)+.footer__copyrite-block>p.footer__copyrite-text+a.footer__link)
+footer.footer>img+(ul.footer__list>li.footer__list-item_heading+li.footer__list-item*8)+(ul.footer__list>li.footer__list-item_heading+li.footer__list-item*4)+(ul.footer__list>li.footer__list-item_heading+li.footer__list-item*2)+(.footer__copyrite-block>p.footer__copyrite-text+a.footer__link)
 ```
 
 ### form
@@ -73,6 +73,6 @@ section.form>p.form__discription+h2.form__heading+form>(label.form__label>input.
 ![insights](/img/insights.jpg)
 
 ```
-section.insights>h2.insights__heading+ul.insights__container>(img+h3.insight__name+p.insights__discription+p.insights__date)+(img+h3.insight__name+p.insights__discription+p.insights__date)+(img+h3.insight__name+p.insights__discription+p.insights__date)
+section.insights>h2.insights__heading+ul.insights__container>(img+h3.insight__name+p.insights__discription+p.insights__date)*3
 
 ```
