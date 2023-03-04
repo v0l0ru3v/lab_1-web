@@ -58,7 +58,7 @@ header.header>img+nav.header__navigation>ul.header__nav-list>li.header__link+li.
 ![footer](/img/footer1.jpg)
 
 ```
-footer.footer>img+(ul.footer__list>li.footer__list-item_heading+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item)+(ul.footer__list>li.footer__list-item_heading+li.footer__list-item+li.footer__list-item+li.footer__list-item+li.footer__list-item)+(ul.footer__list>li.footer__list-item_heading+li.footer__list-item+li.footer__list-item)+(.footer__copyrite-block>p.footer__copyrite-text+a.footer__link)
+footer.footer>img+(ul.footer__list>li.footer__list-item_heading+li.footer__list-item*8)+(ul.footer__list>li.footer__list-item_heading+li.footer__list-item*4)+(ul.footer__list>li.footer__list-item_heading+li.footer__list-item*2)+(.footer__copyrite-block>p.footer__copyrite-text+a.footer__link)
 ```
 
 ### form
@@ -73,6 +73,6 @@ section.form>p.form__discription+h2.form__heading+form>(label.form__label>input.
 ![insights](/img/insights.jpg)
 
 ```
-section.insights>h2.insights__heading+ul.insights__container>(img+h3.insight__name+p.insights__discription+p.insights__date)+(img+h3.insight__name+p.insights__discription+p.insights__date)+(img+h3.insight__name+p.insights__discription+p.insights__date)
+section.insights>h2.insights__heading+ul.insights__container>(img+h3.insight__name+p.insights__discription+p.insights__date)*3
 
 ```
